@@ -13,7 +13,7 @@
     
     /* Font Weights */
     --fw-reg: 300;
-    --fwbold: 900;
+    --fw-bold: 900;
     
     /* Colors */
     --clr-light: #fff;
@@ -40,6 +40,10 @@
 
 /* General Styles */
 
+button {
+    display: none;
+}
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -52,6 +56,10 @@ body {
 img {
     display: block;
     max-width: 100%;
+}
+
+strong {
+    font-weight: var(--fw-bold)
 }
 
 /* Typography */
@@ -73,4 +81,36 @@ h2 {
 
 h3 {
     font-size: var(--fs-h3);
+}
+
+.nav__list {
+    background-color: var(--clr-accent);
+}
+
+.nav__item {
+    display: inline;
+}
+
+.section__title {
+    margin-bottom: .25em;
+}
+
+.section__title--intro{
+    font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+    display: block;
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle--intro,
+.seciton__subtitle--about{
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+
 }
