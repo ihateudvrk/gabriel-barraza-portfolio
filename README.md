@@ -7,6 +7,8 @@ In the future I would love to expand on this portfolio and add more as I go. Thi
 Simply open the page and click around. If everything is going well the different Nav bar items should take the user to the corresponding section of the website.
 
 <!-- TODO: ADD SCREENSHOT HERE -->
+## Website Screenshot
+<img src="Assets/img/Website Screenshot.png">
 
 ## Credits
 

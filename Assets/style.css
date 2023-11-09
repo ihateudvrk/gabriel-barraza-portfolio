@@ -18,7 +18,7 @@
     /* Colors */
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #c43434;
 
     /* Font Sizing */
     --fs-h1: 3rem;
@@ -48,8 +48,8 @@
 
 
 body {
-    background: var(--clr-light);
-    color: var(--clr-dark);
+    background: var(--clr-dark);
+    color: var(--clr-light);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
@@ -98,7 +98,8 @@ h3 {
 
 
 .section__title {
-    margin-bottom: .25em;
+    margin-bottom: 2em;
+    text-align: center;
 }
 
 .section__title--intro{
@@ -112,6 +113,7 @@ h3 {
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    color: black;
 }
 
 .section__subtitle--intro,
@@ -150,7 +152,7 @@ button {
     background-color: var(--clr-accent);
     text-decoration: none;
     text-align: center;
-    color: var(--clr-dark);
+    color: black;
 }
 
 .nav__list a:hover {
@@ -170,6 +172,7 @@ button {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 10% 20%;
 }
 
 .section__subtitle--intro {
@@ -193,6 +196,7 @@ button {
         min-width: 250px;
         position: relative;
         z-index: 2;
+        border-radius: 10% 20%;
     }
 
     .section__subtitle--intro {
