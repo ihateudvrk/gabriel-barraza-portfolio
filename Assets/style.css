@@ -161,7 +161,15 @@ button {
 
 .nav__item {
     display: inline;
-    padding: 6%;
+    padding: 15px;
+}
+
+.nav__list--sort {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Intro Section */
@@ -307,8 +315,17 @@ button {
     text-align: center;    
 }
 
+.overlay__text {
+    color: var(--clr-light);
+}
+
+.overlay__text:hover {
+    text-decoration: none;
+}
+
 .portfolio {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -321,6 +338,18 @@ button {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+}
+
+.portfolio__img--v {
+    width: 100%;
+}
+
+.portfolio__img--sc {
+   width: 50%; 
+}
+
+.portfolio__img--s {
+    width: 50%;
 }
 
 .portfolio__item:focus {
